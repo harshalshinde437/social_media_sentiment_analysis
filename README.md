@@ -29,8 +29,7 @@ All major modules, processing steps, and visualization layers are implemented in
 ### ✔ Multi-Platform Data Support
 
 * CSV ingestion
-* (Assuming fully functional) APIs for:
-
+* APIs for:
   * Twitter/X
   * Reddit
   * Bluesky
@@ -66,7 +65,6 @@ A scoring formula evaluates the concentration of disaster-category posts:
 ```
 crisis_score = min(100, (DisasterPosts / TotalPosts) * 1000)
 ```
-
 Scores are mapped to alert states:
 
 * 🟢 Normal
@@ -272,11 +270,13 @@ Just paste this into your README 👇
 ## 📸 Screenshots
 
 *All screenshots are located in `assets/screenshots/`.*
+
 ---
 
 ### **1. Main Dashboard Home**
 
 <img src="assets/screenshots/Dashboard.png" width="800"/>
+
 ---
 
 ### **2. CSV Import Screen**
@@ -306,6 +306,7 @@ Just paste this into your README 👇
 ### **6. Engagement Analysis**
 
 <img src="assets/screenshots/engagement.png" width="800"/>
+
 ---
 
 ### **7. Time-Series Post Volume**
@@ -343,6 +344,7 @@ Just paste this into your README 👇
 <img src="assets/screenshots/heatmap.png" width="800"/>
 
 ---
+
 ### **13. Location Statistics**
 
 <img src="assets/screenshots/location_statistics.png" width="800"/>
